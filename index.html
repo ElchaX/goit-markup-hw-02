@@ -5,54 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
       <nav>
-        <a href="#"><span>Web</span>Studio</a>
+        <a href="#" class="logo">WebStudio</a>
         <ul>
-          <li><a href="#">Studio</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="#">Contacts</a></li>
+          <li><a href="./index.html" class="navLink">Studio</a></li>
+          <li><a href="./portfolio.html" class="navLink">Portfolio</a></li>
+          <li><a href="#" class="navLink">Contacts</a></li>
         </ul>
       </nav>
       <ul>
-        <li><a href="mailto:info@devstudio.com"> info@devstudio.com </a></li>
-        <li><a href="Tel:+380961111111"> +38 096 111 11 11 </a></li>
+        <li>
+          <a href="mailto:info@devstudio.com" class="navAdress">
+            info@devstudio.com
+          </a>
+        </li>
+        <li>
+          <a href="Tel:+380961111111" class="navAdress"> +38 096 111 11 11 </a>
+        </li>
       </ul>
     </header>
     <main>
       <section>
-        <h1>EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
-        <button type="button">Request our service</button>
+        <h1 class="mainSign">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
+        <button type="button" class="indexButton">Request our service</button>
       </section>
       <section>
         <h2></h2>
         <ul>
           <li>
-            <h3>ATTENTION TO DETAILS</h3>
-            <p>
+            <h3 class="textBlockTitle">ATTENTION TO DETAILS</h3>
+            <p class="textBlock">
               We go into all the details and processes of your business to
               develop a customized solution.
             </p>
           </li>
           <li>
-            <h3>PUNCTUALITY</h3>
-            <p>
+            <h3 class="textBlockTitle">PUNCTUALITY</h3>
+            <p class="textBlock">
               With us, you can feel safe and secure. An important principle of
               the company: respect your time and respect the agreed deadlines.
             </p>
           </li>
           <li>
-            <h3>PLANNING</h3>
-            <p>
+            <h3 class="textBlockTitle">PLANNING</h3>
+            <p class="textBlock">
               You will be able to observe and participate in every phase of
               solution development and implementation.
             </p>
           </li>
           <li>
-            <h3>MODERN TECHNOLOGIES</h3>
-            <p>
+            <h3 class="textBlockTitle">MODERN TECHNOLOGIES</h3>
+            <p class="textBlock">
               We use innovative tools to solve assigned tasks. It's time to
               simplify work processes.
             </p>
@@ -60,7 +73,7 @@
         </ul>
       </section>
       <section>
-        <h2>What we do</h2>
+        <h2 class="sectionTitle">What we do</h2>
         <ul>
           <li>
             <img
@@ -89,7 +102,7 @@
         </ul>
       </section>
       <section>
-        <h2>Our Team</h2>
+        <h2 class="sectionTitle">Our Team</h2>
         <ul>
           <li>
             <img
@@ -99,8 +112,8 @@
               alt="zdjęcie Christophera Walkera"
             />
 
-            <h3>Christopher Walker</h3>
-            <p>Product Designer</p>
+            <h3 class="memberName">Christopher Walker</h3>
+            <p class="memberDescription">Product Designer</p>
           </li>
           <li>
             <img
@@ -110,8 +123,8 @@
               alt="zdjęcie Kylie Evans"
             />
 
-            <h3>Kylie Evans</h3>
-            <p>Frontend Developer</p>
+            <h3 class="memberName">Kylie Evans</h3>
+            <p class="memberDescription">Frontend Developer</p>
           </li>
           <li>
             <img
@@ -121,8 +134,8 @@
               alt="zdjęcie Ryana Harrisa"
             />
 
-            <h3>Ryan Harris</h3>
-            <p>Marketing</p>
+            <h3 class="memberName">Ryan Harris</h3>
+            <p class="memberDescription">Marketing</p>
           </li>
           <li>
             <img
@@ -132,19 +145,29 @@
               alt="zdjęcie Tylera Moore"
             />
 
-            <h3>Tyler Moore</h3>
-            <p>UI Designer</p>
+            <h3 class="memberName">Tyler Moore</h3>
+            <p class="memberDescription">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
     <footer>
-      <a href="#">WebStudio</a>
+      <a href="./index.html" class="logo">WebStudio</a>
       <address>
-        <p>695 Park Ave, New York, NY 10065, United States</p>
+        <p class="footerAdress">
+          695 Park Ave, New York, NY 10065, United States
+        </p>
         <ul>
-          <li><a href="mailto:info@example.com"> info@example.com </a></li>
-          <li><a href="Tel:+1212-772-4150"> +1 212-772-4150 </a></li>
+          <li>
+            <a href="mailto:info@example.com" class="footerContact">
+              info@example.com
+            </a>
+          </li>
+          <li>
+            <a href="Tel:+1212-772-4150" class="footerContact">
+              +1 212-772-4150
+            </a>
+          </li>
         </ul>
       </address>
     </footer>
