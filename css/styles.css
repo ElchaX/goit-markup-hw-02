@@ -6,6 +6,7 @@
   --secondary-text-color: #757575;
   --button-portfolio-color: #f5f4fa;
   --main-color-transp: #ffffff99;
+  --logo-second-color: #000000;
 }
 
 body {
@@ -67,19 +68,17 @@ body {
   text-decoration: none;
 }
 .footerContact:hover,
-.footerContact:focus,
-.footerAdress:hover,
-.footerAdress:focus {
+.footerContact:focus {
   color: var(--secondary-color);
 }
 .itemName {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
 }
 .itemDescription {
   line-height: 1.88;
   color: var(--secondary-text-color);
+  font-size: 16px;
 }
 .mainSign {
   font-weight: 900;
@@ -101,14 +100,13 @@ body {
   color: var(--secondary-text-color);
 }
 .textBlockTitle {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1;
 }
 .sectionTitle {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  font-family: Raleway;
 }
 .memberName {
   font-weight: 500;
@@ -118,4 +116,7 @@ body {
 .memberDescription {
   color: var(--secondary-text-color);
   line-height: 1;
+}
+.logoSecondColor {
+  color: var(--logo-second-color);
 }
